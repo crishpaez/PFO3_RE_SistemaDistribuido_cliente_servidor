@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.db
+*.log
+*.err
+.venv/
+venv/
+.codex_deps/
+.source_pfo1/
+.source_pfo2/
