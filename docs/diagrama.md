@@ -44,4 +44,4 @@ flowchart LR
 
 ## Descripcion breve
 
-Los clientes se conectan al balanceador de carga, que reparte las conexiones entre varios servidores worker. Cada servidor mantiene un pool de hilos para procesar tareas concurrentes. RabbitMQ permite desacoplar tareas entre servidores y PostgreSQL/S3 representan el almacenamiento distribuido para datos y archivos.
+Los clientes se conectan al balanceador de carga, que reparte las conexiones entre varios servidores worker. Cada servidor mantiene un pool de hilos para procesar tareas concurrentes. RabbitMQ nos permite desacoplar las tareas entre servidores y PostgreSQL/S3 representan el almacenamiento distribuido para datos y archivos.
